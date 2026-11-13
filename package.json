@@ -1,0 +1,12 @@
+{
+  "name": "pxxl-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal VLESS + WebSocket node for Pxxl Free (Node deploy). Xray-core is downloaded from the official XTLS release at build time.",
+  "main": "server.js",
+  "scripts": {
+    "build": "node setup.js",
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=18" }
+}
